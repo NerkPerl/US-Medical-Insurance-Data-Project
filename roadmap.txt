@@ -1,1 +1,82 @@
+Project Roadmap:
+
+This file will be utilized to plan and develop a Jupyter Notebook file that satisfies the requirements for the Medical Science Project on Codecademy's Data Scientist and Data Analyst study paths. Our code should be simple and 
+easy to read. It should be broken into smaller 'bite-sized' snippets so that the code itself doesn't claim more screenspace than the explanations. We should aim to utilize functions that can be re-used so that we are not repeating
+ourselves. And, although we should only implement code that we need to answer the specific questions we ask, our functions should be built in such that they can be used in the event we have further questions that are asked. 
+
+Project Requirements per Codecademy: 
+
+1.    Work locally on your own computer
+2.    Import a dataset into your program
+3.    Analyze a dataset by building out functions or class methods
+4.    Use libraries to assist in your analysis
+5.    Optional: Document and organize your findings
+6.    Optional: Make predictions about a dataset’s features based on your findings
+
+1.    Work locally on your own computer:
+We will be working individually on our own computers, and collaborating using this GitHub repository. Our submitted files will include the Jupyter Notebook file we produce, the Insurance.csv file provided by Codecademy, 
+and any additional CSV files produced by our code (if any).
+
+
+2.   Import a dataset into your program:
+We will be importing the datasets from the Insurance.csv file provided by Codecademy. 
+
+
+3.    Analyze a dataset by building out functions or class methods:
+In the interests of practicing the skills we have learned we will both build out class methods and utilize functions 
+to explore and analyze the data. The framework for how we intend to do so is as follows. 
+
+In order to analyze the data we will need to determine: 
+
+-- How we wish to explore the data (what questions do we wish to ask?)
+
+	- a summary / comparison of regions: what is the average in each of the fields(age/bmi/etc)? how do they compare?
+		Processes required: 
+
+		-to sort the data into sets by region. 
+			pull the data from the CSV by region
+		-to run avg(imput) on the data in them. (and for that data in them to be either int/float)
+			where input will be the bmi, age, charges, number of children
+		-to get percentage of smokers  	
+			count insured_smokers and total_insured then >> %age = insured_smokers * 100 / total_insured
+
+
+	 - a summary / comparison of the ages: how much do charges increase with age?
+		Processes required:
+		
+		-to sort the data into sets by age. 
+			pull the data from the CSV by age
+		-to average each age's charges
+
+		-to examine the effect that age has on charges if any
+			linear regression on variables: age and charges
+		
+		
+	- a summary / comparison of the bmi: 
+
+
+-- How we wish to store/access the data. (how will we need/use the data?)
+	- create a class to pull data from the CSV and sort it as needed. 
+	- identify the processes that will be repeated and store them either as class methods or functions. 
+		- pulling the data from the CSV and sorting it by a particular CSV column. 
+		- averaging the data
+		- linear regressions
+		- to count the number of insured in a set (for instance number of smokers, total number of insured)
+
+		
+
+-- What other questions are raised by the answers to the previous questions. 
+
+-
+-
+
+
+4.    Use libraries to assist in your analysis:
+Pandas? 
+
+-    Optional: Document and organize your findings:
+After exploring the data we will use this space to discuess how to organize the data in our .ipynb file.
+
+
+-    Optional: Make predictions about a dataset’s features based on your findings:
 
