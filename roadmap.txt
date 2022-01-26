@@ -1,8 +1,6 @@
 Project Roadmap:
 
-This file will be utilized to plan and develop a Jupyter Notebook file that satisfies the requirements for the Medical Science Project on Codecademy's Data Scientist and Data Analyst study paths. Our code should be simple and 
-easy to read. It should be broken into smaller 'bite-sized' snippets so that the code itself doesn't claim more screenspace than the explanations. We should aim to utilize functions that can be re-used so that we are not repeating
-ourselves. And, although we should only implement code that we need to answer the specific questions we ask, our functions should be built in such that they can be used in the event we have further questions that are asked. 
+This file will be utilized to plan and develop a Jupyter Notebook file that satisfies the requirements for the Medical Science Project on Codecademy's Data Scientist and Data Analyst study paths. Our code should be simple and easy to read. It should be broken into smaller 'bite-sized' snippets so that the code itself doesn't claim more screenspace than the explanations. We should aim to utilize functions that can be re-used so that we are not repeating ourselves. And, although we should only implement code that we need to answer the specific questions we ask, our functions should be built in such that they can be used in the event we have further questions that are asked. 
 
 Project Requirements per Codecademy: 
 
