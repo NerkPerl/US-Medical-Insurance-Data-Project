@@ -1,6 +1,13 @@
 Project Roadmap:
 
-This file will be utilized to plan and develop a Jupyter Notebook file that satisfies the requirements for the Medical Science Project on Codecademy's Data Scientist and Data Analyst study paths. Our code should be simple and easy to read. It should be broken into smaller 'bite-sized' snippets so that the code itself doesn't claim more screenspace than the explanations. We should aim to utilize functions that can be re-used so that we are not repeating ourselves. And, although we should only implement code that we need to answer the specific questions we ask, our functions should be built in such that they can be used in the event we have further questions that are asked. 
+This file will be utilized to plan and develop a Jupyter Notebook file that satisfies the requirements for the 
+edical Science Project on Codecademy's Data Scientist and Data Analyst study paths. 
+
+Our code should be simple and easy to read. It should be broken into smaller 'bite-sized' snippetsm
+so that the code itself doesn't claim more screenspace than the explanations. 
+We should aim to utilize functions that can be re-used so that we are not repeating ourselves. 
+And, although we should only implement code that we need to answer the specific questions we ask, 
+our functions should be built in such that they can be used in the event we have further questions that are asked. 
 
 Project Requirements per Codecademy: 
 
@@ -12,7 +19,8 @@ Project Requirements per Codecademy:
 6.    Optional: Make predictions about a dataset’s features based on your findings
 
 1.    Work locally on your own computer:
-We will be working individually on our own computers, and collaborating using this GitHub repository. Our submitted files will include the Jupyter Notebook file we produce, the Insurance.csv file provided by Codecademy, 
+We will be working individually on our own computers, and collaborating using this GitHub repository. 
+Our submitted files will include the Jupyter Notebook file we produce, the Insurance.csv file provided by Codecademy, 
 and any additional CSV files produced by our code (if any).
 
 
