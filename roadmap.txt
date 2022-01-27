@@ -40,14 +40,15 @@ In order to analyze the data we will need to determine:
 		Processes required: 
 
 		-to sort the data into sets by region. 
-			pull the data from the CSV by region
-		-to run avg(imput) on the data in them. (and for that data in them to be either int/float)
+			pull the data from the CSV by requested input (region)
+			cast data to either int or float format where necessary
+		-to run avg(imput) on the data in them. 
 			where input will be the bmi, age, charges, number of children
 		-to get percentage of smokers  	
-			count insured_smokers and total_insured then >> %age = insured_smokers * 100 / total_insured
+			count insured_smokers and total_insured then >> percentage = insured_smokers * 100 / total_insured
 
 
-	 - a summary / comparison of the ages: how much do charges increase with age?
+	 - a summary / comparison of ages: how much do charges increase with age?
 		Processes required:
 		
 		-to sort the data into sets by age. 
@@ -58,8 +59,8 @@ In order to analyze the data we will need to determine:
 			linear regression on variables: age and charges
 		
 		
-	- a summary / comparison of the bmi: 
-
+	- a summary / comparison of the bmi: (how does bmi change with age,region,num_children)?
+		
 
 -- How we wish to store/access the data. (how will we need/use the data?)
 	- create a class to pull data from the CSV and sort it as needed. 
@@ -68,8 +69,23 @@ In order to analyze the data we will need to determine:
 		- averaging the data
 		- linear regressions
 		- to count the number of insured in a set (for instance number of smokers, total number of insured)
+	- structure of the ipynb file.
 
-		
+-- How we structure the ipynb file.
+	- create class insured with the following arguments
+		(age, sex, bmi, num_children, smoker_status, region, charges)
+	
+	- region section (text excplaining subsequent data)
+		call class method sort_by(region)
+		call class method avg(regions)
+		call class method get_percent(smokers,total)
+	
+
+	- age section (text explaining subsequent data)
+	
+	- bmi section
+
+
 
 -- What other questions are raised by the answers to the previous questions. 
 
