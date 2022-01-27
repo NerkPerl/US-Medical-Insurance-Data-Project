@@ -1,4 +1,5 @@
 import csv
+from matplotlib import pyplot as plt
 
 # declaration of variables for future examination
 bmi = []
@@ -42,6 +43,14 @@ for i in range(top_n_ages):
 
 print('The ' + str(top_n_ages) + ' ages with the most insured_persons: \n' + str(highest_keys_list) + '\n')
 
+
+#plt.plot(range(top_n_ages), highest_keys_list) # This works, it's just not an accurate depiction of how we would want to display some of the data.
+plt.plot(ages_dict.keys(), ages_dict.values()) # Works, just need to make the space on the x-axis wider.
+plt.xlabel("Ages")
+plt.ylabel("Count")
+plt.title("Top Ages Based on Count")
+plt.show()
+plt.subplots_adjust(wspace=.55) # Issue mentioned on line 47 gets resolved here.
 
 #input the int value of the age you want to test. following code will convert it to str, search CSV keys for matching age, and pull relevant data to construct dataset. 
 age_to_test = 18
